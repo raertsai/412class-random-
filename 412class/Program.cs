@@ -24,18 +24,20 @@ namespace _412class
             {
                 // print any number at random
                 int r = rand.Next(1, numbers.Count);// numbers.count-->因為list的總數變少
-               Console.Write(numbers[r]+" ");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(numbers[r]+" ");
                
                 // and delete the number printed from "list"
                 numbers.RemoveAt(r);
             }
 
             // repeat couple times
+            
 
             
 
-            Console.WriteLine();
-            Console.WriteLine();
+           
+           
 
             Console.ReadLine();
 
